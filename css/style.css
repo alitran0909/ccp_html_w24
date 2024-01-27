@@ -1,0 +1,54 @@
+/*title styling following the assignment*/
+
+/*entire page*/
+body{
+    background-color: #f5f5dc;
+    color:#114611
+}
+
+/*h1*/
+h1{
+    font-size: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+/*h2*/
+
+h2{
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    color: #114611;
+}
+
+/*h3*/
+
+h3{
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:coral
+}
+
+/*p line-height*/
+
+p{
+    line-height: 50px;
+    font-size: 25px;
+    text-align: center;
+}
+
+/*images*/
+
+img{
+    border: 5px solid #114611;
+    padding: 10px;
+    margin: 20px;
+    border-top-right-radius: 30px;
+}
+
+/*list itmes*/
+ul{
+    display: inline-block;
+    margin-left: 50px;
+}

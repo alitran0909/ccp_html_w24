@@ -1,0 +1,98 @@
+body{
+    margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: hsl(60, 56%, 91%);
+    color: hsl(0, 0%, 0%);
+    font-size: 1.1em;
+    line-height: 1.5;
+    text-align: center;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+h1, h2{
+    margin: 0;
+    padding: 1em 0;
+}
+
+p{
+    margin: 0;
+    padding: 1em 0;
+}
+
+.NavigationBar ul{
+    list-style-type: none;
+    background-color: hsl(120, 100%, 25%);
+    padding: 0px;
+    margin: 0px;
+}
+
+.NavigationBar a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.NavigationBar a:hover{
+    background-color: hsl(120, 100%, 10%);
+    text-decoration: underline;
+}
+
+/*media queries*/
+@media(min-width: 700px){
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
+    }
+}
+
+.IntrotoPets{
+    font-size: 50px;
+    text-decoration: underline overline;
+}
+.animaltitle{
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.cardcontent p{
+    font-size: 20px;
+}
+
+/*grid layout for pets*/
+.petgrid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 15px;
+}
+
+/*recipe stuff*/
+.link{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.recipetitle{
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.RECIPEgrid{
+    display: grid;
+    grid-template-columns: 300px 300px;
+    padding: 10px;
+}
+
+
+.grid{
+    display:grid;
+    grid-template-columns: 400px 400px;
+    padding: 10px;
+}
